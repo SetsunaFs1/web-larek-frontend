@@ -1,6 +1,9 @@
 {
   "name": "my-webpack-project",
   "version": "1.0.0",
+  "repository": {
+    "url": "git+https://github.com/SetsunaFs1/web-larek-frontend.git"
+  },
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
