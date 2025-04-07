@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
-/* eslint-disable no-undef */
 // Generated using webpack-cli https://github.com/webpack/webpack-cli
 
 const path = require("path");
@@ -20,9 +18,7 @@ const config = {
   entry: "./src/index.ts",
   devtool: "source-map",
   output: {
-    filename: 'bundle.js',
-    path: '/',
-    // path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "dist"),
   },
   devServer: {
     open: true,
